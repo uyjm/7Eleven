@@ -1,0 +1,465 @@
+@media only screen and (max-width: 320px){
+  html{
+
+    body{
+
+      margin: 0%;
+      padding: 0%;
+
+      div#menu-responsive {
+
+        background-color: $greymedium;
+        margin: 0% 0% 0% 0%;
+        padding: 3% 3% 3% 3%;
+
+        #container-icon{
+
+          cursor: pointer;
+          display: inline-block;
+          margin: 0% 0% 0% 0%;
+
+          div#menu-icon {
+
+            width: 33px;
+            height: 6px;
+            background-color: white;
+            border: 0px solid white;
+            border-radius: 1px;
+            margin: 6px 0;
+          }
+        }
+        input#mySearch{
+
+          float: right;
+          background-color: $greymedium;
+          background: url("../magnifying_glass.png");
+          background-position: right;
+          background-repeat: no-repeat;
+          border: 3px solid white;
+          border-radius: 12px;
+          font-family: "Microsoft PhagsPa";
+          font-size: 1.8em;
+          margin: 0% 0% 0% 0%;
+          width: 83%;
+        }
+        /*
+          img#search-glass{
+
+            position: relative;
+            bottom: 40px;
+            left: 335px;
+          }*/
+      }
+      div#menu.tab {
+
+        display: none;
+      }
+      div.tab button {
+
+        display: none;
+      }
+      div.tab button:hover {
+
+        display: none;
+      }
+      div.tab button.active {
+
+        display: none;
+      }
+      .tabcontent {
+
+        margin: 0%;
+        max-width: 100%;
+        padding: 0%;
+      }
+      div#logo-banner{
+
+        margin: 3% 0% 3% 0%;
+        max-width: 100%;
+      }
+      div#Voluptatum{
+
+        margin: 0%;
+        max-width: 100%;
+        padding: 0%;
+        text-align: left;
+      }
+      p#p-voluptatum-head {
+
+        color: black;
+        font-size: 1.2em;
+        font-weight: bold;
+        letter-spacing: 0px;
+        line-height: 100%;
+        margin: 0% 8% 0% 8%;
+        max-width: 100%;
+        padding: 0%;
+        text-align: left;
+      }
+      p#p-voluptatum {
+
+        color: black;
+        font-size: 1em;
+        font-family: "Microsoft PhagsPa";
+        margin: 0% 8% 0% 8%;
+        max-width: 100%;
+        padding: 0%;
+        text-align: left;
+      }
+      div#header-voluptatum {
+
+        color: $red;
+        font-size: 2em;
+        margin: 0% 8% 0% 8%;
+        text-align: left;
+      }
+      form {
+
+        border: none;
+        border-radius: 0px;
+        box-shadow: 0px 0px 0px $greydark;
+        box-sizing: content-box;
+        font-family: "Segoe UI";
+        font-size: 0.8em;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+        text-align: left;
+        width: 100%;
+
+        div#name {
+
+          margin: 0% 0% 2% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 0px;
+          bottom: 0px;
+          width: auto;
+        }
+        input#font-name {
+
+          background-color: $grey;
+          border: none;
+          border-radius: 1px;
+          box-sizing: border-box;
+          font-size: 2em;
+          margin: 0% 0% 0% 0%;
+          padding: 1% 1% 1% 1%;
+          position: relative;
+            left: -38px;
+            bottom: -26px;
+          text-align: left;
+          width: 80%;
+        }
+        div#email {
+
+          margin: 0% 0% 2% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 0px;
+          bottom: -11px;
+          width: auto;
+        }
+        input#font-email {
+
+          background-color: $grey;
+          border: none;
+          border-radius: 1px;
+          box-sizing: border-box;
+          font-size: 2em;
+          margin: 0% 0% 0% 0%;
+          padding: 1% 1% 1% 1%;
+          position: relative;
+          left: -34px;
+          bottom: -26px;
+          text-align: left;
+          width: 80%;
+        }
+        div#mobile-number {
+
+          margin: 0% 0% 2% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 0px;
+          bottom: -36px;
+          width: auto;
+        }
+        input#font-mobile {
+
+          background-color: $grey;
+          border: none;
+          border-radius: 1px;
+          box-sizing: border-box;
+          font-size: 2em;
+          margin: 0% 0% 0% 0%;
+          padding: 1% 1% 1% 1%;
+          position: relative;
+          left: -1px;
+          bottom: 0px;
+          text-align: left;
+          width: 80%;
+        }
+        div#date-of-birth {
+
+          margin: 0% 0% 2% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 0px;
+          bottom: -27px;
+          width: auto;
+
+          select#sel-dob {
+
+            background-color: $grey;
+            border: none;
+            border-radius: 1px;
+            font-size: 1.2em;
+            padding: 1.3% 0% 1.3% 3%;
+            position: relative;
+              left: -76px;
+              bottom: -19px;
+            text-align: center;
+            width: 31%;
+          }
+          select#sel-day {
+
+            background-color: $grey;
+            border: none;
+            border-radius: 1px;
+            font-size: 1.2em;
+            padding: 1.3% 0% 1.3% 3%;
+            position: relative;
+              left: -77px;
+              bottom: -19px;
+            text-align: center;
+          }
+          select#sel-year {
+
+            background-color: $grey;
+            border: none;
+            border-radius: 1px;
+            font-size: 1.2em;
+            padding: 1.3% 0% 1.3% 3%;
+            position: relative;
+              left: 151px;
+              bottom: 7px;
+            text-align: center;
+          }
+        }
+        div#gender{
+
+          margin: 0% 0% 2% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 0px;
+          bottom: -19px;
+          width: auto;
+        }
+        input#checkbox {
+
+          margin: 0% 0% 0% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 5px;
+          bottom: -22px;
+          width: auto;
+        }
+        p{
+
+          font-size: 1.1em;
+          margin: 0% 12% 0% 8%;
+          padding: 0% 0% 0% 0%;
+          position: relative;
+          left: 23px;
+          bottom: -9px;
+          width: auto;
+        }
+        button {
+
+          font-size: 1.3em;
+          position: relative;
+          left: 22px;
+          bottom: -33px;
+          width: 30%;
+        }
+        div#cards {
+
+          position: relative;
+          left: 118px;
+          bottom: 38px;
+          width: 50%;
+          height: auto;
+        }
+      }
+      footer#footer-main {
+
+        font-size: 1.3em;
+        margin: 0% 0% 0% 0%;
+        text-align: center;
+        width: 100%;
+
+        ul {
+
+          border-bottom: 1px solid lightseagreen;
+          cursor: pointer;
+          padding: 0% 0% 3% 0%;
+          text-align: center;
+          width: 60%;
+          li{
+
+            text-align: center;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+@media only screen and (max-width: 480px) and (min-width: 321px){
+  html{
+
+    body{
+
+      div#menu-responsive {
+
+        background-color: $greymedium;
+        padding: 4.8% 6% 0.7% 6%;
+
+        #container-icon{
+
+          display: inline-block;
+          margin: 0% 0% 0% 0%;
+
+          div#menu-icon {
+
+            width: 63px;
+            height: 9px;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 2px;
+            margin: 18px 0;
+          }
+        }
+        input#mySearch{
+
+          float: right;
+          background-color: $greymedium;
+          background: url("../magnifying_glass.png");
+          background-position: right;
+          background-repeat: no-repeat;
+          border: 3px solid white;
+          border-radius: 12px;
+          font-family: "Microsoft PhagsPa";
+          font-size: 1.8em;
+          margin: 5% 0% 0% 0%;
+        }
+      !*
+        img#search-glass{
+
+          position: relative;
+          bottom: 40px;
+          left: 335px;
+        }*!
+      }
+
+      div#menu.tab {
+        display: none;
+      }
+
+      div.tab button {
+        display: none;
+      }
+
+      div.tab button:hover {
+        display: none;
+      }
+
+      div.tab button.active {
+        display: none;
+      }
+
+      .tabcontent {
+        background-color: white;
+        display: inline-block;
+      }
+
+      div#logo-banner{
+        margin: 12.1% 0% 0% 0%;
+        max-width: 100%;
+      }
+
+
+      div#Voluptatum{
+
+      }
+      p#p-voluptatum-head {
+        width: 74%;
+      }
+      p#p-voluptatum {
+        width: 100%;
+      }
+      header#header-voluptatum {
+        width: 100%;
+      }
+      form {
+        width: 92.4%;
+
+        div#name {
+          width: 100%;
+        }
+        input#font-name {
+          width: 100%;
+        }
+        div#email {
+          width: 100%;
+        }
+        input#font-email {
+          width: 100%;
+        }
+
+        div#date-of-birth {
+          width: 100%;
+
+          select#sel-dob {
+            width: 100%;
+          }
+          select#sel-day {
+            width: 95%;
+          }
+          select#sel-year {
+            width: 94%;
+          }
+        }
+        div#cards {
+          max-width: 100%;
+          height: auto;
+        }
+
+        input#checkbox {
+          width: 96%;
+        }
+
+        section#section-right {
+          width: 100%;
+
+          button {
+            width: 96.5%;
+          }
+        }
+      }
+
+      footer#footer-main {
+        width: 100%;
+
+        ul {
+          width: 92%;
+          li{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+*/
